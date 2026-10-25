@@ -2,9 +2,9 @@
 
 **Public, open-source (MIT)** tool. Anyone can read this repo, so treat every commit as published.
 
-- Planning hub (private): `D:\MRGSEO-CLAUDE-FILES\MRG-BRAINSTORM-VPS-FREE-TOOLS` — read its `CLAUDE.md` first.
-- This repo is pulled into the private site `tools-serpnetic-cloud` as a git submodule at
-  `tools/google-review-link-generator/` and shown at https://tools.serpnetic.cloud/google-review-link-generator/.
+- Serpnetic's planning notes live in a private repo; ask the owner before changing scope.
+- The live version at https://tools.serpnetic.cloud/google-review-link-generator/ includes this repo
+  as a git submodule inside a private site repo.
 
 ## What it does
 
