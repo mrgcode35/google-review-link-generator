@@ -95,7 +95,7 @@
 
 /* ── Printable card: always light, whatever the host theme ── */
 .rlg-card-wrap { display: flex; justify-content: center; }
-.rlg-card {
+.rlg .rlg-card {
   --rlg-card-accent: #1a73e8;
   width: 320px;
   max-width: 100%;
@@ -110,12 +110,12 @@
   overflow: hidden;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 }
-.rlg-card-bar { position: absolute; top: 0; left: 0; right: 0; height: 8px; background: var(--rlg-card-accent); }
-.rlg-card-name { margin: 4px 0 2px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5b6474; }
-.rlg-card-headline { margin: 6px 0 14px; font-size: 24px; font-weight: 800; line-height: 1.2; color: #1b1f27; }
-.rlg-card-qr { width: 190px; margin: 0 auto; }
-.rlg-card-subline { margin: 14px 0 6px; font-size: 14px; line-height: 1.45; color: #3a4252; }
-.rlg-card-stars { margin: 0; font-size: 22px; letter-spacing: 4px; color: var(--rlg-card-accent); }
+.rlg .rlg-card-bar { position: absolute; top: 0; left: 0; right: 0; height: 8px; background: var(--rlg-card-accent); }
+.rlg .rlg-card-name { margin: 4px 0 2px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5b6474; }
+.rlg .rlg-card-headline { margin: 6px 0 14px; font-size: 24px; font-weight: 800; line-height: 1.2; color: #1b1f27; }
+.rlg .rlg-card-qr { width: 190px; margin: 0 auto; }
+.rlg .rlg-card-subline { margin: 14px 0 6px; font-size: 14px; line-height: 1.45; color: #3a4252; }
+.rlg .rlg-card-stars { margin: 0; font-size: 22px; letter-spacing: 4px; color: var(--rlg-card-accent); }
 
 /* ── Print only the card ── */
 @media print {
