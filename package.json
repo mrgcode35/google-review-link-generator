@@ -1,0 +1,36 @@
+{
+  "name": "google-review-link-generator",
+  "version": "0.1.0",
+  "description": "Free Google review link and QR code generator. Paste a Place ID, get a direct review link, a QR code and a printable review card. Runs entirely in the browser.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./style.css": "./src/style.css"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "keywords": [
+    "google-review-link",
+    "review-qr-code",
+    "local-seo",
+    "google-business-profile"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrgcode35/google-review-link-generator.git"
+  }
+}

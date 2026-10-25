@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Google Review Link Generator</title>
+  <style>
+    body { margin: 0; padding: 32px 16px; background: #eef1f5; font-family: system-ui, sans-serif; }
+    main { max-width: 860px; margin: 0 auto; }
+    h1 { margin: 0 0 6px; font-size: 28px; }
+    p.lead { margin: 0 0 24px; color: #5b6474; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Google Review Link Generator</h1>
+    <p class="lead">Paste a Place ID or Google link to get a direct review link, a QR code and a printable card.</p>
+    <div id="tool"></div>
+  </main>
+  <script type="module">
+    import './src/style.css';
+    import { mountReviewLinkTool } from './src/index.js';
+    mountReviewLinkTool(document.getElementById('tool'));
+  </script>
+</body>
+</html>
